@@ -1,0 +1,24 @@
+.kidney-disease-data-array {
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.output-wrapper {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    .readings-wrapper {
+        display: flex;
+    }
+    .reading-block {
+        margin: 10px;
+    }
+}

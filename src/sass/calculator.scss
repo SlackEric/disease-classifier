@@ -1,0 +1,48 @@
+@import "./variables";
+
+.calculator {
+    margin-top: 30px;
+
+    .input-section {
+        &__header {
+            margin-left: 50px;
+        }
+
+        &__content {
+            margin-bottom: 20px;
+
+            .input-data {
+                width: 50px;
+                margin: $input-top-bottom-margin $input-left-right-margin;        
+            }
+      
+            .input-year {
+                width: 70px;
+                margin: $input-top-bottom-margin $input-left-right-margin;
+            }
+
+            .input-month {
+                width: 60px;
+                margin: $input-top-bottom-margin $input-left-right-margin;
+            }
+
+            .input-day {
+                width: 50px;
+                margin: $input-top-bottom-margin $input-left-right-margin;
+            }           
+        }
+    }
+
+    .center-element {
+        display: flex;
+        justify-content: center;
+    }
+
+    button {
+        margin: 10px;
+    }
+
+    .delete-button {
+        color: red;
+    }
+}

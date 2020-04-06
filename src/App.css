@@ -1,0 +1,6 @@
+.disease-classifier__container {
+    width: 1000px;
+    margin: 50px auto auto;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
